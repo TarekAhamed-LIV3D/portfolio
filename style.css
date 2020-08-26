@@ -87,6 +87,9 @@ body{
 ul{
     list-style: none;
 }
+h5{
+    color: white;
+}
 .skills-sec{
     margin-bottom: 50px;
 }
