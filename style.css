@@ -1,0 +1,100 @@
+body{
+    background-color: #000;
+}
+.share-sec{
+    margin-left: 400px;
+    margin-top: 145px;
+    padding: 12px 0;
+    float: left;
+}
+.share-sec ul {
+    margin: 0 -8px;
+    list-style: none;
+}
+.share-sec ul li {
+    float: left;
+    padding: 0 8px;
+}
+.share-sec ul li i{
+    color: aliceblue;
+    font-size: 26px;
+}
+.profile-img {
+    width: 325px;
+    height: 330px;
+    background: #000;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -180px;
+    position: absolute;
+    left: 35%;
+}
+.banner-sec {
+    text-align: center;
+    padding-left: 420px;
+    padding-top: 330px;
+}
+.container {
+    width: 980px;
+    padding: 0 0px;
+    max-width: 1200px;
+    text-align: center;
+}
+.menu-bar {
+    margin-bottom: 80px;
+}
+.menu-bar ul{
+    list-style: none;
+}
+.menu-bar ul li {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 20px;
+}
+.menu-bar ul li a{
+    color: aliceblue;
+}
+.heading {
+    font-size: 50px;
+    line-height: 40px;
+    color: white;
+    letter-spacing: -1.4px;
+    margin-bottom: 40px;
+    padding: 0px 0px;
+    text-align: center;
+}
+.devider {
+    width: 1px;
+    height: 150px;
+    background: #ccc;
+    display: block;
+    margin: 0 auto;
+}
+.skills-sec h2 {
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+    margin: 0;
+    margin-left: -12px;
+}
+.all{
+    margin-left: 450px;
+}
+.skill_title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 500;
+}
+.skill_title a{
+    color: wheat;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+}
+.skills-sec{
+    margin-bottom: 50px;
+}
