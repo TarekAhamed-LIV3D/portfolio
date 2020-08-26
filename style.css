@@ -2,7 +2,7 @@ body{
     background-color: #000;
 }
 .share-sec{
-    margin-left: 200px;
+    margin-left: 20%;
     margin-top: 145px;
     padding: 12px 0;
     float: left;
@@ -29,17 +29,12 @@ body{
     text-align: center;
     margin-bottom: -180px;
     position: absolute;
-    left: 42%;
+    left: 41%;
 }
 .banner-sec {
-    text-align: center;
-    padding-left: 420px;
     padding-top: 330px;
 }
 .container {
-    width: 980px;
-    padding: 0 0px;
-    max-width: 1200px;
     text-align: center;
 }
 .menu-bar {
@@ -78,9 +73,6 @@ body{
     font-size: 60px;
     margin: 0;
     margin-left: -12px;
-}
-.all{
-    margin-left: 450px;
 }
 .skill_title {
     font-size: 30px;
