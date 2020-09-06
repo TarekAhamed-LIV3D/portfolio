@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Users</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <button  id="button">Load github users</button>
+    <br>
+    <h1>Github Users</h1>
+    <section id="info">
+    </section>
+    <script>
+        document.getElementById('button').addEventListener('click', showData);
+        function showData() {
+            var req = new XMLHttpRequest();
+            req.open('GET', 'https://api.github.com/users', true);
+            req.onload = function(){
+                if(req.status==200){
+                    var people = JSON.parse(req.responseText)
+                    var display= ' ';
+                    for(var i in people){
+                    display +=
+                    // working on this
+                    '<section>'+
+                    '<div>'+
+                        '<div class="row">'+
+                            '<div>'+
+                                '<img  alt="#"src="'+people[i].avatar_url+'" width="14%" height="200px">'+
+                            '</div>'+
+                            '<div>'+
+                                '<p style="margin-top:60px;font-weight:600;font-size:20px;color:black;">Id: '+people[i].id+'</p>'+
+                                '<p style="font-size:20px;font-weight:600; color:black;">Login: '+people[i].login+'</p>'+
+                            '</div>'+
+                        '</div>'+
+                    '</div>'
+                    '</section>';
+                    }
+                    document.getElementById('info').innerHTML=display;
+                }
+            }
+            req.send();
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+</body>
+</html>

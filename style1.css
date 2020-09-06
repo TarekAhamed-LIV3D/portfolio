@@ -1,0 +1,18 @@
+
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+    margin-top: 1rem;
+}
+button{
+    margin-left: 60px;
+    margin-top: 40px;
+    padding: 5px;
+}
+h1{
+    padding-left:55px;
+}
+body{
+    text-align: center;
+    font-weight: ;
+}
